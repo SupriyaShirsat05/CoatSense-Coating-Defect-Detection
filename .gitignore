@@ -1,0 +1,26 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model weights, datasets, caches & Ultralytics runs
+*.pt
+*.pth
+*.onnx
+*.cache
+runs/
+Balanced_dataset/
+SAFE-net_balanced/
+
+# Local databases & OS/IDE clutter
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

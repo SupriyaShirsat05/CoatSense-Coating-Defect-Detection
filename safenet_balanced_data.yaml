@@ -1,0 +1,11 @@
+path: C:/Users/Supriya/Downloads/Balanced_dataset
+train: SAFE-net_balanced/images/train
+val: val_yolo/images
+
+nc: 4
+names:
+  0: Corrosion
+  1: Crack
+  2: Flaking
+  3: Blistering
+  

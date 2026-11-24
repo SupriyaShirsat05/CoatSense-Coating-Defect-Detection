@@ -1,0 +1,202 @@
+{
+  "rusting": {
+    "standard": "ISO 4628-3",
+    "metric": "area_pct",
+    "unit": "% of image area",
+    "note": "Placeholder thresholds following the ISO 4628-3 Ri scale. Verify against the licensed standard.",
+    "grades": [
+      {
+        "grade": "Ri0",
+        "min": 0,
+        "max": 0.05,
+        "label": "No / trace rusting",
+        "recommendation": "No action required",
+        "reuse": "A"
+      },
+      {
+        "grade": "Ri1",
+        "min": 0.05,
+        "max": 0.5,
+        "label": "Minor rusting",
+        "recommendation": "Monitor at next scheduled inspection",
+        "reuse": "A"
+      },
+      {
+        "grade": "Ri2",
+        "min": 0.5,
+        "max": 1,
+        "label": "Light rusting",
+        "recommendation": "Plan touch-up",
+        "reuse": "B"
+      },
+      {
+        "grade": "Ri3",
+        "min": 1,
+        "max": 8,
+        "label": "Moderate rusting",
+        "recommendation": "Re-coat within 30 days",
+        "reuse": "B"
+      },
+      {
+        "grade": "Ri4",
+        "min": 8,
+        "max": 40,
+        "label": "Significant rusting",
+        "recommendation": "Re-coat within 14 days",
+        "reuse": "C"
+      },
+      {
+        "grade": "Ri5",
+        "min": 40,
+        "max": 1000,
+        "label": "Severe rusting",
+        "recommendation": "Immediate re-coat / escalate",
+        "reuse": "D"
+      }
+    ]
+  },
+  "blistering": {
+    "standard": "ISO 4628-2",
+    "metric": "density",
+    "unit": "detected instances per image (placeholder unit; real grading needs a physical scale)",
+    "note": "Placeholder thresholds. Verify against the licensed standard.",
+    "grades": [
+      {
+        "grade": "0",
+        "min": 0,
+        "max": 1,
+        "label": "No blistering",
+        "recommendation": "No action required",
+        "reuse": "A"
+      },
+      {
+        "grade": "S2",
+        "min": 1,
+        "max": 3,
+        "label": "Few blisters",
+        "recommendation": "Monitor at next scheduled inspection",
+        "reuse": "A"
+      },
+      {
+        "grade": "S3",
+        "min": 3,
+        "max": 6,
+        "label": "Moderate blistering",
+        "recommendation": "Re-coat within 30 days",
+        "reuse": "B"
+      },
+      {
+        "grade": "S4",
+        "min": 6,
+        "max": 11,
+        "label": "Dense blistering",
+        "recommendation": "Re-coat within 14 days",
+        "reuse": "C"
+      },
+      {
+        "grade": "S5",
+        "min": 11,
+        "max": 1000000,
+        "label": "Very dense blistering",
+        "recommendation": "Immediate re-coat / escalate",
+        "reuse": "D"
+      }
+    ]
+  },
+  "cracking": {
+    "standard": "ISO 4628-4",
+    "metric": "density",
+    "unit": "detected instances per image (placeholder unit; real grading needs a physical scale)",
+    "note": "Placeholder thresholds. Verify against the licensed standard.",
+    "grades": [
+      {
+        "grade": "0",
+        "min": 0,
+        "max": 1,
+        "label": "No cracking",
+        "recommendation": "No action required",
+        "reuse": "A"
+      },
+      {
+        "grade": "S2",
+        "min": 1,
+        "max": 3,
+        "label": "Few cracks",
+        "recommendation": "Monitor at next scheduled inspection",
+        "reuse": "A"
+      },
+      {
+        "grade": "S3",
+        "min": 3,
+        "max": 6,
+        "label": "Moderate cracking",
+        "recommendation": "Re-coat within 30 days",
+        "reuse": "B"
+      },
+      {
+        "grade": "S4",
+        "min": 6,
+        "max": 11,
+        "label": "Dense cracking",
+        "recommendation": "Re-coat within 14 days",
+        "reuse": "C"
+      },
+      {
+        "grade": "S5",
+        "min": 11,
+        "max": 1000000,
+        "label": "Extensive cracking",
+        "recommendation": "Immediate re-coat / escalate",
+        "reuse": "D"
+      }
+    ]
+  },
+  "peeling": {
+    "standard": "ISO 4628-5",
+    "metric": "area_pct",
+    "unit": "% of image area (detection-box proxy)",
+    "note": "Placeholder thresholds. Verify against the licensed standard.",
+    "grades": [
+      {
+        "grade": "0",
+        "min": 0,
+        "max": 0.1,
+        "label": "No flaking",
+        "recommendation": "No action required",
+        "reuse": "A"
+      },
+      {
+        "grade": "S2",
+        "min": 0.1,
+        "max": 2,
+        "label": "Few flakes",
+        "recommendation": "Monitor at next scheduled inspection",
+        "reuse": "A"
+      },
+      {
+        "grade": "S3",
+        "min": 2,
+        "max": 5,
+        "label": "Moderate flaking",
+        "recommendation": "Re-coat within 30 days",
+        "reuse": "B"
+      },
+      {
+        "grade": "S4",
+        "min": 5,
+        "max": 15,
+        "label": "Dense flaking",
+        "recommendation": "Re-coat within 14 days",
+        "reuse": "C"
+      },
+      {
+        "grade": "S5",
+        "min": 15,
+        "max": 1000,
+        "label": "Extensive flaking",
+        "recommendation": "Immediate re-coat / escalate",
+        "reuse": "D"
+      }
+    ]
+  }
+}
